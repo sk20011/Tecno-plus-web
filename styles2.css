@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+body {
+  font-family: "Merriweather";
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+}
+
+p .texto-presentacion{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+
+}
+header {
+  background-image: url(./img/banner.jpg);
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+    height: 60vh;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 4%;
+  padding-right: 4%;
+  font-weight: bold;
+}
+
+.logo-web {
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  transition: 0.33s ease-in-out;
+}
+
+.logo-web:hover {
+  display: inline-block;
+  transform: scale(1.1);
+}
+
+#plus {
+  color: aqua;
+  font-size: 50px;
+  background: linear-gradient(to right, #5f3f96, #285db3, #9a31a8);
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.titulo-web {
+    color: white;
+    font-size: 200px;
+    text-shadow: 2px 2px 4px rgba(163, 8, 8, 0.611);
+    font-family:"Jersey 10", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.contenedor-texto{
+    width: 100%;
+    height: 45vh;
+    padding: 10px 10px
+    ;
+}
+.pie-pagina {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 50px 0;
+}
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 30px 0px;
+}
+
+.pie-pagina .grupo-1 .caja figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.pie-pagina .grupo-1 .caja figure,
+img {
+  width: 200px;
+}
+
+.pie-pagina .grupo-1 .caja h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .caja p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .redes-sociales a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  margin-right: 10px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.icono-facebook {
+  transition: all 0.33s ease-in-out;
+}
+
+.icono-facebook:hover {
+  background: linear-gradient(45deg, #254996, #4465be, #1f4186);
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 30px white;
+}
+
+.icono-instagram {
+  transition: all 0.33s ease-in-out;
+}
+
+.icono-instagram:hover {
+  background: linear-gradient(45deg, #802cb8, #c70a0a);
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 30px white;
+}
+
+.icono-twitter {
+  transition: 0.33s ease-in-out;
+}
+
+.icono-twitter:hover {
+  background: linear-gradient(45deg, #1da1f2, #55acee);
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 30px white;
+}
+
+.icono-youtube {
+  transition: 0.33s ease-in-out;
+}
+
+.icono-youtube:hover {
+  background: linear-gradient(45deg, #ff0000, #ff0000);
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 30px white;
+}
+
+.pie-pagina .grupo-2 {
+  padding: 15px 15px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.87);
+}
+
+.pie-pagina .grupo-2 small {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
